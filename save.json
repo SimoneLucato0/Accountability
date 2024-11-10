@@ -1,0 +1,207 @@
+{
+    "groups": [
+        {
+            "commonfunds": [
+                {
+                    "creation_time": "1 2021-06-15 23:41:15",
+                    "founder": "francesco.ranzato",
+                    "init_balance": 0,
+                    "movements": [
+                        {
+                            "amount": 60,
+                            "collected": {
+                                "elia.scandaletti": 20,
+                                "francesco.ranzato": 30,
+                                "simone.lucato": 10
+                            },
+                            "description": "Prima raccolta fondi",
+                            "inserted_by": "francesco.ranzato",
+                            "insertion_time": "1 2021-06-15 00:02:42",
+                            "note": "",
+                            "time": "1 2020-06-13 00:02:27",
+                            "type": 2,
+                            "user_credit_change": {
+                                "elia.scandaletti": 20,
+                                "francesco.ranzato": 30,
+                                "simone.lucato": 10
+                            }
+                        },
+                        {
+                            "amount": -15,
+                            "description": "Ombrelloni",
+                            "inserted_by": "francesco.ranzato",
+                            "insertion_time": "1 2021-06-15 00:06:31",
+                            "involved_users": [
+                                "elia.scandaletti",
+                                "francesco.ranzato",
+                                "simone.lucato"
+                            ],
+                            "note": "Simone anticipa 2€",
+                            "personal_expenses": {
+                            },
+                            "personal_payments": {
+                                "simone.lucato": 2
+                            },
+                            "time": "1 2020-06-13 00:05:58",
+                            "type": 3,
+                            "user_credit_change": {
+                                "elia.scandaletti": -5,
+                                "francesco.ranzato": -5,
+                                "simone.lucato": -3
+                            }
+                        },
+                        {
+                            "amount": -25,
+                            "description": "Prima spesa comune",
+                            "inserted_by": "francesco.ranzato",
+                            "insertion_time": "1 2021-06-15 00:05:32",
+                            "involved_users": [
+                                "elia.scandaletti",
+                                "francesco.ranzato",
+                                "simone.lucato"
+                            ],
+                            "note": "Elia ha preso una palla",
+                            "personal_expenses": {
+                                "elia.scandaletti": 5
+                            },
+                            "personal_payments": {
+                            },
+                            "time": "1 2020-06-15 18:04:37",
+                            "type": 3,
+                            "user_credit_change": {
+                                "elia.scandaletti": -11.666666666666668,
+                                "francesco.ranzato": -6.666666666666667,
+                                "simone.lucato": -6.666666666666667
+                            }
+                        },
+                        {
+                            "amount": 60,
+                            "description": "Restituzione cauzione",
+                            "inserted_by": "francesco.ranzato",
+                            "insertion_time": "1 2021-06-15 00:07:03",
+                            "involved_users": [
+                                "elia.scandaletti",
+                                "francesco.ranzato",
+                                "simone.lucato"
+                            ],
+                            "note": "",
+                            "personal_expenses": {
+                            },
+                            "personal_payments": {
+                            },
+                            "time": "1 2020-06-16 17:07:39",
+                            "type": 3,
+                            "user_credit_change": {
+                                "elia.scandaletti": 20,
+                                "francesco.ranzato": 20,
+                                "simone.lucato": 20
+                            }
+                        }
+                    ],
+                    "name": "Lignano 2020",
+                    "owner": "Calcetto",
+                    "partecipations": [
+                        {
+                            "init_credit": 0,
+                            "user": "elia.scandaletti"
+                        },
+                        {
+                            "init_credit": 0,
+                            "user": "francesco.ranzato"
+                        },
+                        {
+                            "init_credit": 0,
+                            "user": "simone.lucato"
+                        }
+                    ]
+                }
+            ],
+            "description": "",
+            "founder": "francesco.ranzato",
+            "name": "Calcetto",
+            "subscriptions": [
+                {
+                    "time": "1 2021-06-15 23:41:28",
+                    "user": "elia.scandaletti"
+                },
+                {
+                    "time": "1 2021-06-15 23:40:20",
+                    "user": "francesco.ranzato"
+                },
+                {
+                    "time": "1 2021-06-15 23:41:28",
+                    "user": "simone.lucato"
+                }
+            ],
+            "time": "1 2021-06-15 23:40:20"
+        }
+    ],
+    "users": [
+        {
+            "name": "Elia",
+            "pw_hash": "2540012008095083820",
+            "registers": [
+            ],
+            "surname": "Scandaletti",
+            "username": "elia.scandaletti"
+        },
+        {
+            "name": "Francesco",
+            "pw_hash": "12101601537589264546",
+            "registers": [
+                {
+                    "creation_time": "1 2021-06-15 23:43:27",
+                    "init_balance": 5000,
+                    "movements": [
+                        {
+                            "amount": -248,
+                            "description": "Rata macchina",
+                            "inserted_by": "francesco.ranzato",
+                            "insertion_time": "1 2021-06-15 23:43:49",
+                            "note": "",
+                            "time": "1 2021-06-15 15:43:28",
+                            "type": 1
+                        },
+                        {
+                            "amount": -70,
+                            "description": "Cena al ristorante",
+                            "inserted_by": "francesco.ranzato",
+                            "insertion_time": "1 2021-06-15 23:44:10",
+                            "note": "Ristorante: Marechiaro",
+                            "time": "1 2021-06-15 23:43:50",
+                            "type": 1
+                        },
+                        {
+                            "amount": 40,
+                            "description": "Scommessa Matteo",
+                            "inserted_by": "francesco.ranzato",
+                            "insertion_time": "1 2021-06-15 23:44:31",
+                            "note": "Padova pareggia",
+                            "time": "1 2021-06-15 23:44:11",
+                            "type": 1
+                        }
+                    ],
+                    "name": "Conto in Banca"
+                }
+            ],
+            "surname": "Ranzato",
+            "username": "francesco.ranzato"
+        },
+        {
+            "name": "Luca",
+            "pw_hash": "11540658564628934174",
+            "registers": [
+            ],
+            "surname": "Simonato",
+            "username": "luca.simonato"
+        },
+        {
+            "name": "Simone",
+            "pw_hash": "6414370376350317282",
+            "registers": [
+            ],
+            "surname": "Lucato",
+            "username": "simone.lucato"
+        }
+    ]
+}
